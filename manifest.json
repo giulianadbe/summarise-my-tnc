@@ -9,7 +9,7 @@
     "background": {
       "service_worker": "background.js"
     },
-    "permissions": ["activeTab", "storage", "scripting"],
+    "permissions": ["activeTab", "storage", "scripting", "tabs"],
     "host_permissions": ["*://*.example.com/*"],
     "action": {
       "default_icon": "tnc.jpeg",
