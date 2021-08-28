@@ -4,15 +4,23 @@
     "version": "1.0",
     "manifest_version": 3,
     "icons": {
-      "128": "tnc.jpeg"
+      "16": "/images/tnc16.png",
+      "32": "/images/tnc32.png",
+      "48": "/images/tnc48.png",
+      "128": "/images/tnc128.png"
     },
     "background": {
       "service_worker": "background.js"
     },
-    "permissions": ["activeTab", "storage", "scripting"],
+    "permissions": ["activeTab", "storage", "scripting", "tabs"],
     "host_permissions": ["*://*.example.com/*"],
     "action": {
-      "default_icon": "tnc.jpeg",
+      "default_icon": {
+        "16": "/images/tnc16.png",
+        "32": "/images/tnc32.png",
+        "48": "/images/tnc48.png",
+        "128": "/images/tnc128.png"
+      },
       "default_popup": "popup.html"
     }
   }
