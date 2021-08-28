@@ -6,7 +6,7 @@
     "icons": {
       "16": "/images/tnc16.png",
       "32": "/images/tnc32.png",
-      "48": "/images/tnc48.png",
+      "48": "/images/tnc64.png",
       "128": "/images/tnc128.png"
     },
     "background": {
@@ -23,4 +23,4 @@
       },
       "default_popup": "popup.html"
     }
-  }
+}

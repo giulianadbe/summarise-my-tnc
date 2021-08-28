@@ -25,12 +25,13 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
         }
 
         // try match regex for selected keywords
-        let regexList = [/term/, /condition/, /legal/, /agreement/]; // do research here
+        let regexList = [/term/, /condition/, /legal/, /agreement/, /privacy/, /policies/]; // do research here
         let matches = [];
         array.forEach((link) => {
             matches = regexList.filter((word) => word.test(link.toLowerCase()));
             if (matches.length === 0) {
                 console.log("No matches");
+                box.textContent = "No terms and conditions found"
             } else {
                 // chrome://extension
                 // or new

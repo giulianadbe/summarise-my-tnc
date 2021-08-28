@@ -1,0 +1,33 @@
+html, body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  padding: 10px;
+  max-width: 500px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.display {
+    border: 3px solid #00ccbc;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-width: 200px;
+    max-height: 400px;
+    min-height: 200px;
+}
+
+.box {
+    padding: 5px;
+}
+
+.display p {
+    width: auto;
+    margin: 10px;
+    display: block;
+    word-wrap: break-word;
+    color: darkslategray;
+}
+
+#tnc {
+    width: 100px
+}
