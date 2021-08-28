@@ -386,7 +386,7 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
         // search for the <a> tag with the terms & conditions in footer
         // get href values in the footer
         let array = [];
-        let links = doc.getElementsByTagName("a");
+        let links = footer.getElementsByTagName("a");
         for (var i=0, max=links.length; i<max; i++) {
             array.push(links[i].href);
         }
